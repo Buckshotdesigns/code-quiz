@@ -1,11 +1,54 @@
 
 body{
     background-color: #ffffff;
+    margin: 0;
 }
 h1 {
     text-align: center;
 }
 
+/* header */
+header {
+    margin: 50px 0;
+    height:125px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+}
+/* meet the team line */
+.border-div {
+    display: flex;
+    margin-top: 30px;
+    padding: 35px;
+    justify-content: center;
+}
+.border-div h1 {
+    position: relative;
+    bottom: 45px;
+    padding: 0 10px;
+    color: #566b79;
+    font-family: 'Poppins', sans-serif;
+}
+#border-left, #border-right {
+    height: 25px;
+    width: 35%;
+    border-top: solid 2px #566b79; 
+}
+
+#diamond {
+    padding: 0 10px;
+    position: relative;
+    bottom: 14px;
+    color: #566b79;
+    font-size: 24px;
+    
+}
+/* main body */
 .main-content {
     display: flex;
     margin: 0;
@@ -13,12 +56,7 @@ h1 {
 #first-row, #second-row, #third-row, #join {
     justify-content: center;
     align-items: center;
-}
-#join-box {
-    width: 365px;
-    height: 463px;
-    background-color: #f4f2f2;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 /* flip animation settings */
@@ -29,7 +67,6 @@ h1 {
     perspective: 1000px; 
   }
   
-  /* This container is needed to position the front and back side */
   .flip-card-inner {
     position: relative;
     width: 100%;
@@ -39,28 +76,92 @@ h1 {
     transform-style: preserve-3d;
   }
   
-  /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
-  /* Position the front and back side */
   .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
   }
-  
-  /* Style the front side (fallback if image is missing) */
+
   .flip-card-front {
     background-color: #bbb;
     color: black;
   }
   
-  /* Style the back side */
   .flip-card-back {
     background-image:url("../images/wine-background.png");
     color: white;
     transform: rotateY(180deg);
+  }
+
+  #border-left-bottom, #border-right-bottom {
+    height: 25px;
+    width: 45%;
+    border-top: solid 2px #566b79; 
+}
+/* join box */
+#join-box {
+    width: 365px;
+    height: 463px;
+    background-color: #f4f2f2;
+    text-align: center;
+}
+
+#join-box h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #566b79;
+    padding: 65px 30px 0 30px;
+    letter-spacing: 8px;
+}
+#join-box p {
+    padding: 20px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #e55516;
+    letter-spacing: 6px;
+}
+
+/* form  */
+#form-container{
+    width: 365px;
+    height: 463px;
+    background-color: #f4f2f2;
+    margin-left: 25px;
+}
+@media only screen and (max-width: 729px) {
+    #form-container {
+        margin: 25px 0 0 0;
+    }
+}
+form {
+    padding: 35px;
+}
+form h4 {
+    margin: 10px 0;
+}
+input {
+    width: 100%;
+}
+textarea {
+    width: 100%;
+    height: 175px;
+}
+/* footer */
+  footer {
+      margin-top: 80px;
+      height: 100px;
+      width: 100vw;
+      background-color: #7893a5;
+      text-align: center;
+  }
+  footer img {
+      height: 80px;
+      width: 80px;
+      padding: 10px;
   }
