@@ -52,8 +52,9 @@ header img {
 .main-content {
     display: flex;
     margin: 0;
+    padding: 0 50px;
 }
-#first-row, #second-row, #third-row, #join {
+#main-row, #join {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -134,7 +135,7 @@ header img {
     background-color: #f4f2f2;
     margin-left: 25px;
 }
-@media only screen and (max-width: 729px) {
+@media only screen and (max-width: 855px) {
     #form-container {
         margin: 25px 0 0 0;
     }
