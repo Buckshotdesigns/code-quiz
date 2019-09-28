@@ -1,21 +1,24 @@
 
 body{
-    background-color: gray;
+    background-color: #ffffff;
 }
 h1 {
     text-align: center;
 }
-img {
-    /* height: 500px;
-    width: 350px; */
-}
+
 .main-content {
     display: flex;
     margin: 0;
 }
-#first-row, #second-row, #third-row {
+#first-row, #second-row, #third-row, #join {
     justify-content: center;
     align-items: center;
+}
+#join-box {
+    width: 365px;
+    height: 463px;
+    background-color: #f4f2f2;
+    text-align: center;
 }
 
 /* flip animation settings */
@@ -23,8 +26,7 @@ img {
     background-color: transparent;
     width: 365px;
     height: 463px;
-    
-    /* perspective: 1000px; Remove this if you don't want the 3D effect */
+    perspective: 1000px; 
   }
   
   /* This container is needed to position the front and back side */
@@ -58,7 +60,7 @@ img {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-image:url("../images/wine-background.png");
     color: white;
     transform: rotateY(180deg);
   }
