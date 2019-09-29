@@ -16,7 +16,7 @@ For the code quiz I made some generalizations about the target web site based on
 
 3. I cut out all the pictures and put them back on the page as individual photos, when you mouse over each one the card flips and reveals the bio on the back of each picture. I took some creative liberties with the names and about. I hope you enjoy this it was all in good humor.
 
-4.I kept the dog photo and the quotes but placed them at the bottom. I was on the fence about removing them as they didn't seem to really tie in, however sticking with my original plan I wanted to use all the original elements and try my best to make them look good. I've had projects in the past were clients insisted on using certain graphical elements so I left them in.
+4.  I kept the dog photo and the quotes but placed them at the bottom. I was on the fence about removing them as they didn't seem to really tie in, however sticking with my original plan I wanted to use all the original elements and try my best to make them look good. I've had projects in the past were clients insisted on using certain graphical elements so I left them in.
 
 5. Next to the join our team part at the bottom I added a quick form where if someone is interested they could send off some info. The form is not live at the moment.
 
