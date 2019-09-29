@@ -22,7 +22,7 @@ For the code quiz I made some generalizations about the target web site based on
 
 6. I added the footer with some of the orignal color scheme with the logo.
 
-##Deployment
+## Deployment
 I deployed the page to Heroku so it's live. I worked out cross browser support for chrome, safari, and firefox.
 
 link:  https://code-quiz-skycatchfire.herokuapp.com/index.html
