@@ -1,3 +1,9 @@
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/31428973/65825601-eccda900-e246-11e9-868f-3901c121a3d6.gif)
+
+
+
+
 # Code Quiz
 
 For the code quiz I made some generalizations about the target web site based on the information given. In my experience the content someone has on the page is usually what they want to use but they don't have it organized and functioning the way they want. So I used all the elements on the page to make a Meet the Team page and added a little more info. The entire page is mobile responsive.
