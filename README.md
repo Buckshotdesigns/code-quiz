@@ -1,6 +1,6 @@
 # Code Quiz
 
-For the code quiz I made some generalizations about the target web site based on the information given. In my experience the content someone has on the page is usually what they want to use but they don't have it organized and functioning the way they want. So I used all the elements on the page to make a Meet the Team page and added a little more info.
+For the code quiz I made some generalizations about the target web site based on the information given. In my experience the content someone has on the page is usually what they want to use but they don't have it organized and functioning the way they want. So I used all the elements on the page to make a Meet the Team page and added a little more info. The entire page is mobile responsive.
 
 ## Ideas behind the design
 1. I assumed the company was Martha's Vineyard base off the logo. I copied the logo in illustrator to make it sharper so I could have it be larger and more visible at the top of the page. I left room at the top of the page for navigation but not see a reason to include it in this layout.
